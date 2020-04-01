@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="author" content="Jetnull" /> 
+    <meta name="description" content="Consensus Cell Network，基于细胞共识的全球区块链综合生态网络">
+    <meta name="Keywords" content="Cell Network, Consensus">
+    <title>Consensus Cell Network</title>
+    <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">     
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+
+    <!-- Default stylesheets-->
+    <link href="assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Jetnull Specific stylesheets-->
+    <link href="assets/lib/animate.css/animate.css" rel="stylesheet">
+    <link href="assets/lib/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/lib/et-line-font/et-line-font.css" rel="stylesheet">
+    <link href="assets/lib/flexslider/flexslider.css" rel="stylesheet">
+    
+    <link href="assets/lib/magnific-popup/dist/magnific-popup.css" rel="stylesheet">
+    <link href="assets/lib/simple-text-rotator/simpletextrotator.css" rel="stylesheet">
+    <!-- Main stylesheet and color file-->
+    <link href="assets/css/style.css?v=029" rel="stylesheet">
+    <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
+    
+    <!-- scene OR three effects-->
+    <link rel="stylesheet" type="text/css" href="assets/css/scene.css?v=029" />
+    <link type="text/css" rel="stylesheet" href="assets/css/consensus.css?v=029">
+
+  </head>
+
+  <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
+    <main>
+      <div class="page-loader">
+        <div class="loader">Loading...</div>
+      </div>
+      <nav class="navbar navbar-custom navbar-fixed-top navbar-transparent" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            <!-- <a class="navbar-brand" href="#">Consensus</a> -->
+            <a class="navbar-brand" href="#"><img src="assets/img/logo.svg" alt="logo" class="top-logo"></a>
+          </div>
+          <div class="collapse navbar-collapse" id="custom-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html">首页</a></li>
+              <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">产品</a>
+                <ul class="dropdown-menu">
+                  <li><a href="product.html">Cell Wallet</a></li>
+                  <li><a href="product2.html">Cell 质押</a></li>
+                  <li><a href="product3.html">Cell 闪兑</a></li>
+                  <li><a href="product4.html">Cell 红包</a></li>
+                  <li><a href="product.html">Cell Chain</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">服务</a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">企业服务</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">区块链开发服务</a></li>
+                      <li><a href="#">区块链+供应链金融</a></li>
+                      <li><a href="#">区块链+防伪溯源</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">风险投资</a></li>
+                  <li><a href="#">公益慈善</a></li>
+                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">教育传媒</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">区块链专题沙龙</a></li>
+                      <li><a href="#">区块链专题讲座</a></li>
+                      <li><a href="#">开发者社区</a></li>
+                      <li><a href="#">开发者大赛</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">入口</a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">公链</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">区块链浏览器</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">APP</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">钱包下载</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Dapp</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Cell 质押</a></li>
+                      <li><a href="#">Cell 闪兑</a></li>
+                      <li><a href="#">Cell 红包</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">企业服务</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">供应链金融体验平台</a></li>
+                      <li><a href="#">防伪溯源体验平台</a></li>
+                      <li><a href="#">公益慈善体验平台</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              
+              <li><a href="news.html">动态</a></li>
+
+              <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">关于</a>
+                <ul class="dropdown-menu">
+                  <li><a href="about.html">组织</a></li>
+                  <li><a href="about1.html">eCell 通证</a></li>
+                  <li><a href="about2.html">共识节点</a></li>
+                  <li><a href="about3.html">研究中心</a></li>
+                  <li><a href="#">白皮书</a></li>
+                  <li><a href="about4.html">联系我们</a></li>
+                </ul>
+              </li>
+
+              <li><a href="#" >语言切换</a></li>
+               
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section class="home-section home-full-height bg-dark" id="home">
+        <div id="sceneWrapper">
+          <div class="content">
+            <canvas id="webgl"></canvas>
+            <div class="webgl-wrapper">
+              <div class="webgl-titles">
+                <div class="webgl-title wow fadeInUp">Consensus Cell Network</div>
+                <div class="webgl-subtitle">DAO生一  一生二  二生三  三生万物</div>
+                <div class="webgl-slogan wow fadeInDown">Consensus Cell Network，基于细胞共识的全球区块链综合生态网络</div>
+              </div>
+              <div class="row canvas-scroll">
+                <div class="col-sm-2 col-sm-offset-5">
+                  <div class="large-text align-center"><a class="section-scroll" href="#cellWallet"><i class="fa fa-angle-down"></i></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+      <div id="blurSection"></div>
+      
+      <div class="main">
+        <section class="mb20 " id="cellWallet">
+          <div class="bg-main-hor" id="cellWalletUp">
+            <div class="container mt10">
+              <div class="hero-slider">
+                <ul class="slides">
+                  <li>
+                    <div class="row row-eq-height-not-small iphone-switch">
+                      <div class="col-sm-6 col-xs-12 iphone-left  wow fadeInLeft">
+                        <div class="iphoneCase wrapper1 transition">
+                          <img src="assets/img/newiphone1.png" alt="iphone" class="iphone">
+                        </div>
+                      </div>
+
+                      <div class="col-sm-6  col-xs-12 iphone-right wow fadeInRight">
+                        <div class="vertical-center iphone-des-wrapper">
+                          <div class="wrapper1 noselect transition">
+                            <div class="con-text-1">01</div>
+                            <div class="con-text-2">Cell Wallet</div>
+                            <div class="con-text-3">Cell Wallet 的定位是为全球用户提供简单可靠的区块链接入服务，作为区块链世界和用户的中间层，Cell Wallet将本着至臻的设计理念，给用户打造安全无忧、简约而不简单的区块链接入体验。</div>
+                            <div class="con-text-3">您的区块链入口</div>
+                            <button class="transition mt20 btn-white sm-btn-white">了解更多<<<</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="row row-eq-height-not-small iphone-switch">
+                      <div class="col-sm-6 col-xs-12 iphone-left ">
+                        <div class="iphoneCase wrapper1 transition">
+                          <img src="assets/img/newiphone2.png" alt="iphone" class="iphone">
+                        </div>
+                      </div>
+
+                      <div class="col-sm-6  col-xs-12 iphone-right">
+                        <div class="vertical-center iphone-des-wrapper">
+                          <div class="wrapper1 noselect transition">
+                            <div class="con-text-1">02</div>
+                            <div class="con-text-2">Cell 质押</div>
+                            <div class="con-text-3">Consensus Cell Network 选择了 eCell Token 作为网络主要的流通、治理、激励凭证，eCell Token 的发行存在目标通胀机制，将为 Consensus Cell Network 提供合理的经济及激励模型。基于 eCell 的去中心化质押委托机制，我们构筑了Consensus 节点（共识节点）体系，其中 eCell的去中心化质押委托机制将通过 Cell 质押实现。</div>
+                            <button class="transition mt20 btn-white sm-btn-white">了解更多<<<</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="row row-eq-height-not-small iphone-switch">
+                      <div class="col-sm-6 col-xs-12 iphone-left ">
+                        <div class="iphoneCase wrapper1 transition">
+                          <img src="assets/img/newiphone3.png" alt="iphone" class="iphone">
+                        </div>
+                      </div>
+
+                      <div class="col-sm-6  col-xs-12 iphone-right">
+                        <div class="vertical-center iphone-des-wrapper">
+                          <div class="wrapper1 noselect transition">
+                            <div class="con-text-1">03</div>
+                            <div class="con-text-2">Cell 闪兑</div>
+                            <div class="con-text-3">Cell 闪兑的做市商机制是做市商双边竞价机制，对于 Cell 闪兑内支持的交易货币对，做市商可根据其持仓情况，选择相关货币对进行双边报价，Consensus Cell Network 将通过做市商招募、合作计划，吸收来自于全球的做市商，汇集他们的流动性与报价，对用户来说，Cell 闪兑将在交易所前台页面自动为用户选择最优的交易报价，提高市场总体的流动性。</div>
+                            <button class="transition mt20 btn-white sm-btn-white">了解更多<<<</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="row row-eq-height-not-small iphone-switch">
+                      <div class="col-sm-6 col-xs-12 iphone-left ">
+                        <div class="iphoneCase wrapper1 transition">
+                          <img src="assets/img/newiphone4.png" alt="iphone" class="iphone">
+                        </div>
+                      </div>
+
+                      <div class="col-sm-6  col-xs-12 iphone-right">
+                        <div class="vertical-center iphone-des-wrapper">
+                          <div class="wrapper1 noselect transition">
+                            <div class="con-text-1">04</div>
+                            <div class="con-text-2">红包</div>
+                            <div class="con-text-3">XXXX XXXX XXXX</div>
+                            <button class="transition mt20 btn-white sm-btn-white">了解更多<<<</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+          <div id="cellWalletBottom">
+              <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+              viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                <defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" /></defs>
+                <g class="parallax">
+                  <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.6)" />
+                  <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.4)" />
+                  <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.2)" />
+                  <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+                </g>
+              </svg>
+          </div>
+        </section>
+        
+        <section class="mb20" id="services">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3 wow pulse">
+                <h2 class="module-title font-alt">业务板块</h2>
+                <div class="module-subtitle">
+                  <div>Consensus Cell Network 业务包含6大领域</div> 
+                  <!-- <div>XXXXXXXXXXXXXXX YYYYYYYYYYYYYYYYYY ZZZZZZZZZZZZ</div>  -->
+                </div>
+              </div>
+            </div>
+            <div class="row multi-columns-row">
+              <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="features-item min-height-dynamic wow fadeInUp">
+                  <div class="a-center"><img src="assets/img/icon1.svg" alt="icon" class="icon-service"></div>
+                  <h3 class="features-title font-alt">技术研究</h3>
+                  <p>公链基础设施技术开发研究。公链是区块链的底层协议，是区块链世界的“操作系统”。</p>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 col-xs-12 ">
+                <div class="features-item min-height-dynamic wow fadeInUp">
+                  <div class="a-center"><img src="assets/img/icon2.svg" alt="icon" class="icon-service"></div>
+                  <h3 class="features-title font-alt">应用开发</h3>
+                  <p>数字资产钱包（Cell Wallet）应用开发。让 Cell Wallet 成为用户通往新世界的大门，致力于为全球用户提供安全可靠的数字资产管理及区块链内容平台服务。</p>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="features-item min-height-dynamic wow fadeInUp">
+                  <div class="a-center"><img src="assets/img/icon3.svg" alt="icon" class="icon-service"></div>
+                  <h3 class="features-title font-alt">风险投资</h3>
+                  <p>精选优质投资标的，以风险投资的形式实现行业资源的整合，推动区块链产业发展。</p>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="features-item min-height-dynamic wow fadeInUp">
+                  <div class="a-center"><img src="assets/img/icon4.svg" alt="icon" class="icon-service"></div>
+                  <h3 class="features-title font-alt">企业服务</h3>
+                  <p>可为客户提供定制化的开发服务，提供包括公链基础设施、去中心化应用、垂直应用在内的多层解决方案；提供覆盖需求调研、需求分析、产品设计、产品开发、产品部署、售后支持在内的全流程服务。</p>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="features-item min-height-dynamic wow fadeInUp">
+                  <div class="a-center"><img src="assets/img/icon5.svg" alt="icon" class="icon-service"></div>
+                  <h3 class="features-title font-alt">传媒教育</h3>
+                  <p>Consensus Cell Network 将以投资整合的形式，汇集全球开发者社区，通过社区的形式更好地去承载区块链技术的知识体系，以分布于全球的社区为基点，面向社会公众，由点及面，将开发者社区的用户边界拓宽，使其成为履行教育职能的良好媒介。</p>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="features-item min-height-dynamic wow fadeInUp">
+                  <div class="a-center"><img src="assets/img/icon6.svg" alt="icon" class="icon-service"></div>
+                  <h3 class="features-title font-alt">公益慈善</h3>
+                  <p>Consensus Cell Network 将依托相关技术应用储备、推出 Consensus Cell Network 公益慈善链并成立 Consensus Cell Network 慈善公益平台。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="pb80 relative" id="ZZZL">
+          <div class="container">
+            <div class="row landing-image-text pt60">
+              <div class="col-sm-8 wow fadeInLeft"><img class="center-block ZZZL-img" src="assets/img/ZZZL.png" alt="ZZZL"></div>
+              <div class="col-sm-4 xs-a-center wow fadeInRight">
+                <h2 class="module-title font-alt">组织治理</h2>
+                <p class="">依托于 Cell 质押建立 Consensus 节点体系，Consensus 节点是支撑Consensus Cell Network 发展的基石力量。Consensus 节点也担任着 Consensus Cell Network 的主要治理职能，具体的治理机制包括 Consensus Cell Network 的组织治理以及去中心化应用的治理两个层面。</p>
+                <button class="transition mt20 btn-color">了解更多<<<</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="module mb20 pb40 pt-0 parallax-bg testimonial" data-background="assets/img/bg-main-wave-new.png">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 a-center pt40 wow fadeInUp"><h2 class="module-title font-alt color-white mb20">生态伙伴</h2></div>
+            </div>
+            <div class="row wow fadeInUp">
+              <div class="nopadding col-xs-2 col-xs-offset-1 a-center">
+                <img src="assets/img/client11.png" class="client-img" alt="cli">
+                <div class="client-img-text">深入浅出区块链</div>
+              </div>
+              <div class="nopadding col-xs-2 a-center">
+                <img src="assets/img/client22.png" class="client-img" alt="cli">
+                <div class="client-img-text">ABC钱包</div>
+              </div>
+              <div class="nopadding col-xs-2 a-center">
+                <img src="assets/img/client33.png" class="client-img" alt="cli">
+                <div class="client-img-text">Ultiledger</div>
+              </div>
+              <div class="nopadding col-xs-2 a-center">
+                <img src="assets/img/client44.png" class="client-img" alt="cli">
+                <div class="client-img-text">厦门大学<br/>信息科学与技术学院</div>
+              </div>
+              <div class="nopadding col-xs-2 a-center">
+                <img src="assets/img/client55.png" class="client-img" alt="cli">
+                <div class="client-img-text">成都链安</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="mb20">
+          <div class="container wow fadeInUp">
+            <h2 class="module-title font-alt mb20 mt20">最新动态</h2>
+            <div class="row multi-columns-row post-columns">
+              <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="post">
+                  <div class="post-thumbnail"><a href="#"><img src="assets/img/post1.png" alt="Blog-post Thumbnail"/></a></div>
+                  <div class="post-header font-alt">
+                    <h2 class="post-title"><a href="#">趣链科技战略投资城云科技，布局区块链城市级应用</a></h2>
+                    <div class="post-meta">2018-09-09</div>
+                  </div>
+                  <div class="post-entry">
+                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                  </div>
+                  <div class="post-more"><a class="more-link" href="#">详情</a></div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="post">
+                  <div class="post-thumbnail"><a href="#"><img src="assets/img/post2.png" alt="Blog-post Thumbnail"/></a></div>
+                  <div class="post-header font-alt">
+                    <h2 class="post-title"><a href="#">趣链科技张帅博士：有望最先落地AI+区块链的是金融领域</a></h2>
+                    <div class="post-meta">2018-09-09</div>
+                  </div>
+                  <div class="post-entry">
+                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                  </div>
+                  <div class="post-more"><a class="more-link" href="#">详情</a></div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="post">
+                  <div class="post-thumbnail"><a href="#"><img src="assets/img/post3.png" alt="Blog-post Thumbnail"/></a></div>
+                  <div class="post-header font-alt">
+                    <h2 class="post-title"><a href="#">趣链科技被工信部重点实验室评为'区块链应用创新企业'</a></h2>
+                    <div class="post-meta">2018-09-09</div>
+                  </div>
+                  <div class="post-entry">
+                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                  </div>
+                  <div class="post-more"><a class="more-link" href="#">详情</a></div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="pagination font-alt"><a href="#"><i class="fa fa-angle-left"></i></a><a class="active" href="#">1</a><a href="#">2</a><a href="#">3</a><a href="#">4</a><a href="#"><i class="fa fa-angle-right"></i></a></div> -->
+          </div>
+        </section>
+
+        <section class="pb80 pt80 relative">
+          <div class="bg-main-light"></div>
+          <div class="container">
+            <div class="row ">
+              <div class="col-xs-2 wow fadeInLeft col-xs-offset-1 a-center"><img src="assets/img/wechat.svg" alt="wechat" class="soc-link" ></div>
+              <div class="col-xs-2 wow fadeInLeft a-center"><img src="assets/img/weibo.svg" alt="weibo" class="soc-link" ></div>
+              <div class="col-xs-2 a-center"><img src="assets/img/twitter.svg" alt="twitter" class="soc-link" ></div>
+              <div class="col-xs-2 wow fadeInRight a-center"><img src="assets/img/facebook.svg" alt="facebook" class="soc-link" ></div>
+              <div class="col-xs-2 wow fadeInRight a-center"><img src="assets/img/telegram.svg" alt="telegram" class="soc-link" ></div>
+            </div>
+          </div>
+        </section>
+        <hr class="divider-w">
+        <section class="m30">
+          <div class="f-slogan wow pulse">Consensus Cell Network，基于细胞共识的全球区块链综合生态网络</div>
+        </section>
+
+        <div class="bg-main pt40 pb20">
+          <div class="container">
+            <div class="row consensus-footer">
+              <div class="col-sm-4 consensus-footer-left">
+                <div class="widget">
+                  <div class="f-title">
+                    <img src="assets/img/logo2.svg" alt="logo" style="height:40px;margin-left: -5px;">
+                  </div>
+                  <div class="f-sub-title">Consensus Cell Network，一家有情怀的数字货币公司</div>
+                  <div class="f-extra">
+                    <b><span class="i-wrapper">微信</span></b>
+                    <span>Cell_io</span>
+                  </div>
+                  <div class="f-extra">
+                    <b><span class="i-wrapper">邮箱</span></b>
+                    <span>cellnetworkchain@outlook.com</span>
+                  </div>
+                  <div class="f-extra">
+                    <b><span class="i-wrapper">地址</span></b>
+                    <span>厦门思明区莲前街道岭兜西路623号软件园生活广场思明设计中心a栋701</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-2">
+                <div class="widget">
+                  <h5 class="widget-title font-alt">本站导航</h5>
+                  <ul class="white-ul">
+                    <li><a href="javascript:void(0)">产品</a></li>
+                    <li><a href="javascript:void(0)">产品</a></li>
+                    <li><a href="javascript:void(0)">产品</a></li>
+                    <li><a href="javascript:void(0)">产品</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-2">
+                <div class="widget">
+                  <h5 class="widget-title font-alt">友情链接</h5>
+                  <ul class="white-ul">
+                    <li><a href="javascript:void(0)">火币网</a></li>
+                    <li><a href="javascript:void(0)">Ultiledge</a></li>
+                    <li><a href="javascript:void(0)">趣链科技</a></li>
+                    <li><a href="javascript:void(0)">Biki数字交易</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-2">
+                <div class="widget">
+                  <h5 class="widget-title font-alt">社交帐号</h5>
+                  <ul class="white-ul">
+                    <li><a href="javascript:void(0)">Facebook</a></li>
+                    <li><a href="javascript:void(0)">Twitter</a></li>
+                    <li><a href="javascript:void(0)">Youtube</a></li>
+                    <li><a href="javascript:void(0)">Blogs</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-2">
+                <div class="widget">
+                  <h5 class="widget-title font-alt">关于我们</h5>
+                  <ul class="white-ul">
+                    <li><a href="javascript:void(0)">链接1</a></li>
+                    <li><a href="javascript:void(0)">链接2</a></li>
+                    <li><a href="javascript:void(0)">链接3</a></li>
+                    <li><a href="javascript:void(0)">链接4</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            
+            <hr class="foot-hr">
+            
+            <div class="row">
+              <div class="col-xs-12 a-center">
+                <p class="consensus-copyright">&copy; 2020&nbsp;<a href="#">Consensus Cell Network</a>, All Rights Reserved</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        
+      <div class="scroll-up"><a href="#totop"><i class="fa fa-angle-double-up"></i></a></div>
+    </main>
+
+    <!--JavaScripts-->
+    <script src="assets/lib/jquery/dist/jquery.js"></script>
+    <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/lib/wow/dist/wow.js"></script>
+    
+    <script src="assets/lib/isotope/dist/isotope.pkgd.js"></script>
+    <script src="assets/lib/imagesloaded/imagesloaded.pkgd.js"></script>
+    <script src="assets/lib/flexslider/jquery.flexslider.js"></script>
+    
+    <script src="assets/lib/smoothscroll.js"></script>
+    <script src="assets/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
+    <script src="assets/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+     
+    
+    <!-- load three effects -->
+    <script src="three/libs/three.min.js"></script>
+    <script src="three/libs/TweenMax.min.js"></script>
+    <script src="three/js/main.js"></script>
+    <script src="three/js/webgl.js?v=029"></script>
+    <script src="three/data/site.js"></script>
+    <script src="three/libs/utils.js"></script>
+    <script>APP.init();</script>
+
+  </body>
+</html>
